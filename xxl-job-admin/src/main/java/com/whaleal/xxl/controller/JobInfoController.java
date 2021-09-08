@@ -1,5 +1,6 @@
 package com.whaleal.xxl.controller;
 
+import com.whaleal.xxl.core.cron.CronExpression;
 import com.whaleal.xxl.core.exception.XxlJobException;
 import com.whaleal.xxl.core.model.XxlJobGroup;
 import com.whaleal.xxl.core.model.XxlJobInfo;
@@ -28,6 +29,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.text.ParseException;
 import java.util.*;
 
 /**

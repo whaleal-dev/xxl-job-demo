@@ -1,7 +1,7 @@
 package com.whaleal.xxl.core.route.strategy;
 
-import com.whaleal.xxl.core.route.ExecutorRouter;
 import com.whaleal.xxl.core.scheduler.XxlJobScheduler;
+import com.whaleal.xxl.core.route.ExecutorRouter;
 import com.whaleal.xxl.core.util.I18nUtil;
 import com.xxl.job.core.biz.ExecutorBiz;
 import com.xxl.job.core.biz.model.IdleBeatParam;

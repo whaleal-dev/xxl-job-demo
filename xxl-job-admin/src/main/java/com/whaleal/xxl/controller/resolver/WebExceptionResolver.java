@@ -1,8 +1,8 @@
 package com.whaleal.xxl.controller.resolver;
 
 import com.whaleal.xxl.core.exception.XxlJobException;
-import com.whaleal.xxl.core.util.JacksonUtil;
 import com.xxl.job.core.biz.model.ReturnT;
+import com.whaleal.xxl.core.util.JacksonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
